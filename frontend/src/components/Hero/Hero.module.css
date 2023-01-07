@@ -1,0 +1,86 @@
+.container {
+  margin: 40px 30px;
+}
+
+.headline h1 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.headline h2 {
+  font-size: 1rem;
+  font-weight: 200;
+  margin-bottom: 40px;
+}
+
+.card {
+  width: 100%;
+  max-width: 365px;
+  aspect-ratio: 1 / 1;
+  background-color: var(--bg-clr-secondary);
+  border-radius: 20px;
+}
+
+.card-photo {
+  width: 100%;
+  object-fit: contain;
+}
+
+.card h1 {
+  font-size: 1.375rem;
+  font-weight: 600;
+  margin: 22px 20px;
+}
+
+.artist {
+  display: flex;
+  gap: 12px;
+  margin: 10px 20px;
+
+  align-items: center;
+}
+
+.artist h3 {
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.container button {
+  margin: 40px 0;
+  background-color: #a259ff;
+  padding: 20px;
+  height: 60px;
+  width: 100%;
+
+  border-radius: 20px;
+  border: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.container button h1 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--f-clr-primary);
+}
+
+.info ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info h1 {
+  font-family: var(--f-family-mono);
+  font-size: 1.375rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.info h2 {
+  font-size: 1rem;
+  font-weight: 200;
+}

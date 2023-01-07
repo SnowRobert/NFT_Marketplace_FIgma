@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;700&display=swap");
+
+:root {
+  --f-family-mono: "Space Mono", monospace;
+  --f-family-sans: "Work Sans", sans-serif;
+  --f-clr-primary: #ffffff;
+  --f-clr-secondary: #a259ff;
+
+  --bg-clr-primary: #2b2b2b;
+  --bg-clr-secondary: #3b3b3b;
+}
+
+.app {
+  color: var(--f-clr-primary);
+  background-color: var(--bg-clr-primary);
+  font-family: var(--f-family-sans);
+}

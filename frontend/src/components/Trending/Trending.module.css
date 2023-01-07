@@ -1,0 +1,47 @@
+.container {
+  margin: 40px 30px;
+}
+
+.headline h1 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.headline h2 {
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.collection {
+  margin: 40px 0;
+}
+
+.primary-photo {
+  width: 100%;
+  max-width: 365px;
+  aspect-ratio: 1 / 1;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  max-width: 365px;
+}
+
+.more {
+  height: 95px;
+  width: 95px;
+  border-radius: 20px;
+  background-color: var(--f-clr-secondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more h1 {
+  font-family: var(--f-family-mono);
+  font-size: 1em;
+  font-weight: 200;
+}
