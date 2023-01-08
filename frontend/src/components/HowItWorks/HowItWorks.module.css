@@ -1,0 +1,27 @@
+.container {
+  margin: 40px 30px;
+}
+
+.card {
+  width: 100%;
+  background-color: var(--bg-clr-secondary);
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 20px;
+
+  display: flex;
+}
+
+.info {
+    margin: auto 0;
+}
+
+.info h1 {
+  font-size: 1rem;
+}
+
+.info p {
+  font-size: 0.75rem;
+  margin: 10px 20px 0 0;
+  line-height: 1.4;
+}
