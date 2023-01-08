@@ -1,14 +1,18 @@
 import React from "react";
+import Artist from "../../ui/Artist/Artist";
 
 import classes from "./Trending.module.css";
+
+import Avatar from "../../assets/icons/Avatar.svg";
+import Headline from "../../ui/Headline/Headline";
 
 const Trending = () => {
   return (
     <div className={classes.container}>
-      <div className={classes.headline}>
+      <Headline>
         <h1>Trending Collection</h1>
         <h2>Checkout our weekly updated trending collection.</h2>
-      </div>
+      </Headline>
       <div className={classes.collection}>
         <div className={classes["collection-cards"]}>
           <img
@@ -24,7 +28,10 @@ const Trending = () => {
             </div>
           </div>
         </div>
-        <div className={classes.info}></div>
+        <div className={classes.info}>
+          <h1>DSGN Animals</h1>
+          <Artist avatar={Avatar} name={"MrFox"} />
+        </div>
       </div>
     </div>
   );

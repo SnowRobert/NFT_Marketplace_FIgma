@@ -1,0 +1,16 @@
+.container {
+  background: #3b3b3b;
+  border-radius: 20px;
+  flex: 0 1 calc(50% - 10px);
+  margin-bottom: 10px;
+}
+
+.container img {
+  width: 100%;
+}
+
+.container h1 {
+  margin: 20px 0 20px 20px;
+  font-size: 1rem;
+  font-weight: 200;
+}

@@ -34,21 +34,12 @@
 }
 
 .artist {
-  display: flex;
-  gap: 12px;
-  margin: 10px 20px;
-
-  align-items: center;
-}
-
-.artist h3 {
-  font-size: 1rem;
-  font-weight: 200;
+  margin: 0 20px;
 }
 
 .container button {
   margin: 40px 0;
-  background-color: #a259ff;
+  background-color: var(--bg-clr-secondary);
   padding: 20px;
   height: 60px;
   width: 100%;

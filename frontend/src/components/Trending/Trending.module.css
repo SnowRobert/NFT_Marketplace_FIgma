@@ -2,17 +2,6 @@
   margin: 40px 30px;
 }
 
-.headline h1 {
-  font-size: 1.75rem;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.headline h2 {
-  font-size: 1rem;
-  font-weight: 200;
-}
-
 .collection {
   margin: 40px 0;
 }
@@ -44,4 +33,10 @@
   font-family: var(--f-family-mono);
   font-size: 1em;
   font-weight: 200;
+}
+
+.info h1 {
+  font-size: 1.375rem;
+  font-weight: 600;
+  margin: 15px 0 10px;
 }

@@ -1,0 +1,34 @@
+.container button {
+  margin: 40px 0;
+  padding: 20px;
+  height: 60px;
+  width: 100%;
+
+  border-radius: 20px;
+  border: 2px solid var(--f-clr-secondary);
+  background-color: var(--bg-clr-primary);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.container button h1 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--f-clr-primary);
+}
+
+.container svg path {
+  fill: var(--f-clr-secondary);
+}
+
+#hero button {
+  border: none;
+  background-color: var(--f-clr-secondary);
+}
+
+#hero svg path {
+  fill: var(--f-clr-primary);
+}

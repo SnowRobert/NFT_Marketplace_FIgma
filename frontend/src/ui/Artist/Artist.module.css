@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.container h3 {
+  font-size: 1rem;
+  font-weight: 200;
+}

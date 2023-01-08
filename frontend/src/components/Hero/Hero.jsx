@@ -3,26 +3,28 @@ import React from "react";
 import classes from "./Hero.module.css";
 
 import Avatar from "../../assets/icons/Avatar.svg";
-import RocketLauncher from "../../assets/icons/RocketLaunch.svg";
+import { ReactComponent as RocketLauncher } from "../../assets/icons/RocketLaunch.svg";
+import Artist from "../../ui/Artist/Artist";
+import Headline from "../../ui/Headline/Headline";
+import Btn from "../../ui/Btn/Btn";
 
 const Hero = () => {
   return (
     <div className={classes.container}>
-      <div className={classes.headline}>
+      <Headline>
         <h1>Discover digital art & Collect NFTs</h1>
         <h2>NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.</h2>
-      </div>
+      </Headline>
       <div className={classes.card}>
         <img className={classes["card-photo"]} src={require("../../assets/photos/Placeholder.png")} alt="nft" />
         <h1>Space Walking</h1>
         <div className={classes.artist}>
-          <img src={Avatar} alt="avatar" />
-          <h3>Animakid</h3>
+          <Artist avatar={Avatar} name={"Animakid"} />
         </div>
       </div>
-      <button>
-        <img src={RocketLauncher} alt="RocketLauncher" /> <h1>Get Started</h1>
-      </button>
+      <Btn from={'Hero'}>
+        <RocketLauncher /> <h1>Get Started</h1>
+      </Btn>
       <div className={classes.info}>
         <ul>
           <li>
