@@ -16,4 +16,5 @@
   color: var(--f-clr-primary);
   background-color: var(--bg-clr-primary);
   font-family: var(--f-family-sans);
+  padding: 0px 30px;
 }

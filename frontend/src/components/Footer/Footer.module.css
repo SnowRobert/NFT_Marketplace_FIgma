@@ -1,5 +1,6 @@
 .container {
   padding: 40px 30px;
+  margin: -30px;
   background-color: var(--bg-clr-secondary);
 }
 
