@@ -13,7 +13,7 @@ const Hero = () => {
     <div className={classes.container}>
       <div className={classes.headline}>
         <Headline>
-          <h1>Discover digital art & Collect NFTs</h1>
+          <h1>Discover Digital Art & Collect NFTs</h1>
           <h2>NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.</h2>
         </Headline>
       </div>
@@ -24,9 +24,11 @@ const Hero = () => {
           <Artist avatar={Avatar} name={"Animakid"} />
         </div>
       </div>
-      <Btn from={"Hero"}>
-        <RocketLauncher /> <h1>Get Started</h1>
-      </Btn>
+      <div className={classes.btn}>
+        <Btn from={"Hero"}>
+          <RocketLauncher /> <h1>Get Started</h1>
+        </Btn>
+      </div>
       <div className={classes.info}>
         <ul>
           <li>

@@ -20,13 +20,13 @@
 
 .info h1 {
   font-size: 1.375rem;
-  font-weight: 200;
+  font-weight: 400;
   margin-bottom: 5px;
 }
 
 .info h2 {
   font-size: 1rem;
-  font-weight: 200;
+  font-weight: 400;
   color: var(--f-clr-span);
 }
 

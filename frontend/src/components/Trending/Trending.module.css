@@ -29,12 +29,15 @@
 .cards img {
   width: 30%;
   aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
 
 .more {
   width: 30%;
   border-radius: 20px;
   background-color: var(--f-clr-secondary);
+  cursor: pointer;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,7 +46,7 @@
 .more h1 {
   font-family: var(--f-family-mono);
   font-size: 1em;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .info h1 {
@@ -55,14 +58,25 @@
 @media screen and (min-width: 600px) {
   .collection {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
   }
 
   .collection-sections {
-    flex: 0 1 50%;
+    flex: 0 1 calc(50% - 15px);
   }
 
   #collection-mushrooms {
-    display: block !important;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #collection-disco {
+    display: block;
+  }
+
+  .collection-sections {
+    flex: 0 1 calc(100% / 3 - 20px);
   }
 }

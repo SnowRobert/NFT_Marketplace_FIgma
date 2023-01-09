@@ -3,6 +3,7 @@
   padding: 20px;
   height: 60px;
   width: 100%;
+  cursor: pointer;
 
   border-radius: 20px;
   border: 2px solid var(--f-clr-secondary);

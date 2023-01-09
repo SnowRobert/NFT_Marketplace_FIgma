@@ -8,6 +8,37 @@
   font-size: 20px;
 }
 
+/* nav */
+.nav {
+  display: none;
+}
+
+.nav ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav li {
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nav button {
+  padding: 20px 30px;
+  background-color: var(--f-clr-secondary);
+  border: none;
+  border-radius: 20px;
+  color: var(--f-clr-primary);
+  cursor: pointer;
+
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
 /* burger menu */
 .bmenu {
   display: block;
@@ -58,4 +89,13 @@
 
 .bmenu.is-active span:nth-child(3) {
   transform: translate(-3px, 3px) rotate(-45deg);
+}
+
+@media screen and (min-width: 1024px) {
+  .bmenu {
+    display: none;
+  }
+  .nav {
+    display: block;
+  }
 }
