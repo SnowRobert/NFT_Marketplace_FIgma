@@ -32,3 +32,9 @@
 #hero svg path {
   fill: var(--f-clr-primary);
 }
+
+@media screen and (min-width: 600px) {
+  .container button {
+    max-width: 225px;
+  }
+}

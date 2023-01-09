@@ -2,7 +2,6 @@
   background: #3b3b3b;
   border-radius: 20px;
   flex: 0 1 calc(50% - 10px);
-  margin-bottom: 10px;
 }
 
 .container img {
@@ -10,7 +9,13 @@
 }
 
 .container h1 {
-  margin: 20px 0 20px 20px;
+  margin: 20px 0 20px 15px;
   font-size: 1rem;
   font-weight: 200;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    flex: 0 1 calc(100% / 4 - 15px);
+  }
 }

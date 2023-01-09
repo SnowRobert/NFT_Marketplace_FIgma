@@ -10,7 +10,7 @@ import classes from "./DiscoverNFTs.module.css";
 const NFTs = [
   { id: 0, name: "Distant Galaxy", price: 1.65, highest_bid: 0.33, img: "distant-galaxy" },
   { id: 1, name: "Life Of Edena", price: 1.65, highest_bid: 0.33, img: "life-of-edena" },
-  { id: 2, name: "AstroFiction", price: 1.65, highest_bid: 0.33, img: "astroFiction" },
+  // { id: 2, name: "AstroFiction", price: 1.65, highest_bid: 0.33, img: "astroFiction" },
 ];
 
 const DiscoverNFTs = () => {

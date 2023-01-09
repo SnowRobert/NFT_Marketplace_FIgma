@@ -18,3 +18,9 @@
   font-family: var(--f-family-sans);
   padding: 0px 30px;
 }
+
+@media screen and (min-width: 600px) {
+  .app {
+    padding: 0px 50px;
+  }
+}

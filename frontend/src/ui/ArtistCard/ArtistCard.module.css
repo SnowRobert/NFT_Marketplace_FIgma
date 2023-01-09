@@ -1,7 +1,5 @@
 .container {
-  margin: 20px 0;
   width: 100%;
-  max-width: 365px;
   background-color: var(--bg-clr-secondary);
   height: 100px;
   border: none;
@@ -36,4 +34,10 @@
   color: var(--f-clr-primary);
   font-family: var(--f-family-mono);
   margin-left: 5px;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    flex: 0 1 calc(50% - 15px);
+  }
 }

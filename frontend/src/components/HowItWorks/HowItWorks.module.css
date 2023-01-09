@@ -2,18 +2,26 @@
   margin: 40px 0;
 }
 
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .card {
+  padding: 20px;
+  box-sizing: border-box;
   width: 100%;
   background-color: var(--bg-clr-secondary);
   border: none;
   border-radius: 20px;
-  margin-bottom: 20px;
 
   display: flex;
+  align-items: center;
 }
 
-.info {
-    margin: auto 0;
+.card img {
+  margin-left: -20px;
 }
 
 .info h1 {
@@ -22,6 +30,22 @@
 
 .info p {
   font-size: 0.75rem;
-  margin: 10px 20px 0 0;
+  /* margin: 10px 20px 0 0; */
   line-height: 1.4;
+}
+
+@media screen and (min-width: 768px) {
+  .cards {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .card {
+    flex: 0 1 calc(100% / 3 - 15px);
+    flex-direction: column;
+  }
+
+  .info {
+    text-align: center;
+  }
 }

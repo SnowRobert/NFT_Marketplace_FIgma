@@ -14,7 +14,7 @@ const Trending = () => {
         <h2>Checkout our weekly updated trending collection.</h2>
       </Headline>
       <div className={classes.collection}>
-        <div className={classes["collection-cards"]}>
+        <div id={classes["collection-animals"]} className={classes["collection-sections"]}>
           <img
             className={classes["primary-photo"]}
             src={require("../../assets/photos/PrimaryPhoto.png")}
@@ -27,10 +27,48 @@ const Trending = () => {
               <h1>1025+</h1>
             </div>
           </div>
+          <div className={classes.info}>
+            <h1>DSGN Animals</h1>
+            <Artist avatar={Avatar} name={"MrFox"} />
+          </div>
         </div>
-        <div className={classes.info}>
-          <h1>DSGN Animals</h1>
-          <Artist avatar={Avatar} name={"MrFox"} />
+
+        <div id={classes["collection-mushrooms"]} className={classes["collection-sections"]}>
+          <img
+            className={classes["primary-photo"]}
+            src={require("../../assets/photos/PrimaryPhoto.png")}
+            alt="PrimaryPhoto"
+          />
+          <div className={classes.cards}>
+            <img src={require("../../assets/photos/SecondaryPhoto_1.png")} alt="SecondaryPhoto_1" />
+            <img src={require("../../assets/photos/SecondaryPhoto_2.png")} alt="SecondaryPhoto_1" />
+            <div className={classes.more}>
+              <h1>1025+</h1>
+            </div>
+          </div>
+          <div className={classes.info}>
+            <h1>DSGN Animals</h1>
+            <Artist avatar={Avatar} name={"MrFox"} />
+          </div>
+        </div>
+
+        <div id={classes["collection-disco"]} className={classes["collection-sections"]}>
+          <img
+            className={classes["primary-photo"]}
+            src={require("../../assets/photos/PrimaryPhoto.png")}
+            alt="PrimaryPhoto"
+          />
+          <div className={classes.cards}>
+            <img src={require("../../assets/photos/SecondaryPhoto_1.png")} alt="SecondaryPhoto_1" />
+            <img src={require("../../assets/photos/SecondaryPhoto_2.png")} alt="SecondaryPhoto_1" />
+            <div className={classes.more}>
+              <h1>1025+</h1>
+            </div>
+          </div>
+          <div className={classes.info}>
+            <h1>DSGN Animals</h1>
+            <Artist avatar={Avatar} name={"MrFox"} />
+          </div>
         </div>
       </div>
     </div>

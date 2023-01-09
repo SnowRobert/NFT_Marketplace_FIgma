@@ -5,6 +5,11 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 10px;
+  gap: 20px;
 }
+
+/* @media screen and (min-width: 600px) {
+  .cards {
+    gap: 30px;
+  }
+} */

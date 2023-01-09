@@ -11,10 +11,12 @@ import Btn from "../../ui/Btn/Btn";
 const Hero = () => {
   return (
     <div className={classes.container}>
-      <Headline>
-        <h1>Discover digital art & Collect NFTs</h1>
-        <h2>NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.</h2>
-      </Headline>
+      <div className={classes.headline}>
+        <Headline>
+          <h1>Discover digital art & Collect NFTs</h1>
+          <h2>NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.</h2>
+        </Headline>
+      </div>
       <div className={classes.card}>
         <img className={classes["card-photo"]} src={require("../../assets/photos/Placeholder.png")} alt="nft" />
         <h1>Space Walking</h1>
@@ -22,7 +24,7 @@ const Hero = () => {
           <Artist avatar={Avatar} name={"Animakid"} />
         </div>
       </div>
-      <Btn from={'Hero'}>
+      <Btn from={"Hero"}>
         <RocketLauncher /> <h1>Get Started</h1>
       </Btn>
       <div className={classes.info}>

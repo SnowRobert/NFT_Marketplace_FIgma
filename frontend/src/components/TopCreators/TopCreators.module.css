@@ -1,3 +1,9 @@
 .container {
   margin: 40px 0;
 }
+
+.artist-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}

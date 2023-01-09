@@ -1,5 +1,5 @@
 .container {
-  margin: 40px 0;
+  margin-bottom: 40px;
 }
 
 .container h1 {
@@ -11,4 +11,11 @@
 .container h2 {
   font-size: 1rem;
   font-weight: 200;
+}
+
+@media screen and (min-width: 600px) {
+  .container h1 {
+    font-size: 2.375rem !important;
+    margin-bottom: 20px !important;
+  }
 }

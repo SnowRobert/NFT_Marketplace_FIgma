@@ -1,14 +1,22 @@
 .container {
   margin: 40px 0;
+  padding-top: 40px;
 }
 
 .collection {
   margin: 40px 0;
 }
 
+#collection-mushrooms {
+  display: none;
+}
+
+#collection-disco {
+  display: none;
+}
+
 .primary-photo {
   width: 100%;
-  max-width: 365px;
   aspect-ratio: 1 / 1;
 }
 
@@ -16,12 +24,15 @@
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
-  max-width: 365px;
+}
+
+.cards img {
+  width: 30%;
+  aspect-ratio: 1 / 1;
 }
 
 .more {
-  height: 95px;
-  width: 95px;
+  width: 30%;
   border-radius: 20px;
   background-color: var(--f-clr-secondary);
   display: flex;
@@ -39,4 +50,19 @@
   font-size: 1.375rem;
   font-weight: 600;
   margin: 15px 0 10px;
+}
+
+@media screen and (min-width: 600px) {
+  .collection {
+    display: flex;
+    gap: 30px;
+  }
+
+  .collection-sections {
+    flex: 0 1 50%;
+  }
+
+  #collection-mushrooms {
+    display: block !important;
+  }
 }

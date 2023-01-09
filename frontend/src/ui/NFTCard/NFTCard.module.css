@@ -1,9 +1,7 @@
 .container {
   width: 100%;
-  max-width: 365px;
   border: none;
   border-radius: 20px;
-
   background-color: var(--bg-clr-secondary);
 }
 
@@ -49,4 +47,10 @@
 
 .price-info h4 {
   align-self: flex-end;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    flex: 0 1 calc(50% - 15px);
+  }
 }
